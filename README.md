@@ -42,15 +42,31 @@ git clone https://github.com/your-username/movie-lobby-api.git
 cd movie-lobby-api
 ```
 
-### 2. Install Dependencies
+### 2. Step-by-Step Guide (Run below commands in "movie-lobby-api" folder)
+1. Install Required Dependencies:
 
-Install the required dependencies using npm:
+npm install express mongoose
 
-```bash
-npm install
-```
+This will install Express.js, Mongoose (for MongoDB).
 
-### 3. Set Up MongoDB
+2. Install Development Dependencies
+
+To use TypeScript and other necessary tools, install the following development dependencies:
+
+npm install typescript @types/node @types/express @types/mongoose --save-dev
+
+This will install TypeScript and type definitions for Node.js, Express, and Mongoose.
+
+3. Install Testing Tools (Optional but Recommended)
+
+To write unit tests and integration tests for the API, install Jest:
+
+npm install jest ts-jest @types/jest --save-dev
+
+    Jest is the testing framework.
+    ts-jest is a TypeScript preprocessor for Jest, enabling you to write tests in TypeScript.
+
+### 3. Set Up MongoDB/MongoDB Compass
 
 - **Local MongoDB**: If you don’t have MongoDB installed, follow the installation guide on MongoDB's official website for your platform.
 - **Start MongoDB**: If MongoDB is already installed, run the following command to start it locally:
@@ -59,7 +75,7 @@ npm install
 mongod
 ```
 
-The database will run on `mongodb://localhost:27017/movielobby`.
+The database will run on `mongodb://localhost:27017/movielobby`. Create database with name "movielobby"
 
 ### 4. Configure the Application
 
