@@ -45,7 +45,7 @@ cd movie-lobby-api
 ### 2. Step-by-Step Guide (Run below commands in "movie-lobby-api" folder)
 1. Install Required Dependencies:
 
-npm install express mongoose
+    npm install express mongoose
 
 This will install Express.js, Mongoose (for MongoDB).
 
@@ -53,7 +53,7 @@ This will install Express.js, Mongoose (for MongoDB).
 
 To use TypeScript and other necessary tools, install the following development dependencies:
 
-npm install typescript @types/node @types/express @types/mongoose --save-dev
+    npm install typescript @types/node @types/express @types/mongoose --save-dev
 
 This will install TypeScript and type definitions for Node.js, Express, and Mongoose.
 
@@ -61,10 +61,10 @@ This will install TypeScript and type definitions for Node.js, Express, and Mong
 
 To write unit tests and integration tests for the API, install Jest:
 
-npm install jest ts-jest @types/jest --save-dev
+    npm install jest ts-jest @types/jest --save-dev
 
-    Jest is the testing framework.
-    ts-jest is a TypeScript preprocessor for Jest, enabling you to write tests in TypeScript.
+Jest is the testing framework.
+ts-jest is a TypeScript preprocessor for Jest, enabling you to write tests in TypeScript.
 
 ### 3. Set Up MongoDB/MongoDB Compass
 
